@@ -1,13 +1,9 @@
 =begin
-# SCOPE: ALL ABOUT IT and MAYBE NOT
 \\   ||Yer pal,
  \\__||  Mitt3ns
   (°x°)
   /v v)
 o( _ _)
-
-
-  
 =end
 class McHammer
   def initialize()
