@@ -5,11 +5,11 @@
 
 sig =
 '
-___  ||Yer pal
-¯¯¬|_||  Mitt3ns
-  (°x°)
-  /v v)
-o(    )
+#___  ||Yer pal
+#¯¯¬|_||  Mitt3ns
+#  (°x°)
+#  /v v)
+#o(    )
 '
 
 `echo "#{ sig }" | cat - "#{ ARGV[0] }" > /tmp/out && mv /tmp/out "#{ ARGV[0] }"`

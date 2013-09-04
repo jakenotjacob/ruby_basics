@@ -1,0 +1,30 @@
+ke@white ruby_basics]$ irb
+> 2.0.0p247 :001 > irb
+> 2.0.0p247 :001 > ^C
+> 2.0.0p247 :001 > 
+> #<Class:0x00000002338770>: No live threads left. Deadlock?
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/ext/multi-irb.rb:231:in `stop'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/ext/multi-irb.rb:231:in `irb'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/cmd/subirb.rb:19:in `execute'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/cmd/nop.rb:20:in `execute'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/extend-command.rb:164:in `irb'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/extend-command.rb:167:in `irb'
+>         from (irb):1:in `irb_binding'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/workspace.rb:86:in `eval'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/workspace.rb:86:in `evaluate'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/context.rb:380:in `evaluate'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb.rb:492:in `block (2 levels) in eval_input'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb.rb:624:in `signal_status'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb.rb:489:in `block in eval_input'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/ruby-lex.rb:247:in `block (2 levels) in each_top_level_statement'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/ruby-lex.rb:233:in `loop'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/ruby-lex.rb:233:in `block in each_top_level_statement'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/ruby-lex.rb:232:in `catch'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb/ruby-lex.rb:232:in `each_top_level_statement'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb.rb:488:in `eval_input'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb.rb:397:in `block in start'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb.rb:396:in `catch'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/irb.rb:396:in `start'
+>         from /home/jake/.rvm/rubies/ruby-2.0.0-p247/bin/irb:16:in `<main>'Maybe IRB bug!
+> 2.0.0p247 :002 > 
+)))

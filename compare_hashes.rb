@@ -12,8 +12,6 @@ things.each do |thing, weight|
     puts "We must aquit."
   end
 end
-
-
 #!!!!!
 #Bonus: Modify to use a conditional ("conditional expression")
 #This will turn in the above code inside the blocks to...
