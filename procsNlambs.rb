@@ -36,3 +36,5 @@ ints_filter = lambda { |x|  (x.is_a? Integer) ? x : next }
 #
 ints = odds_n_ends.select(&ints_filter)
 #=>[42, 3, 19]
+#
+owns_one_goat = -> {|x| x.first == 1}; a.reject(&has_one_goat)
